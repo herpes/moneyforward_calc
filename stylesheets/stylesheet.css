@@ -231,6 +231,16 @@ td {
   border: 1px solid #ebebeb;
 }
 
+textarea#input {
+    width: 100%;
+    height: 200px;
+}
+
+textarea#output {
+    width: 100%;
+    height: 100px;
+}
+
 form {
   padding: 20px;
   background: #f2f2f2;
