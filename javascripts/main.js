@@ -16,10 +16,10 @@ function calc() {
     case /-[\d,]+/.test(l):
       money = Number(l.match(/-[\d,]+/)[0].replace(/,/, ''));
       break;
-    case /たかひろ/.test(l):
+    case /^たかひろ$/.test(l):
       money_taka += money;
       break;
-    case /みほ/.test(l):
+    case /^みほ$/.test(l):
       money_miho += money;
       break;
     }    
